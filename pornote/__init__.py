@@ -1,8 +1,8 @@
 from flask import Flask
 from flask import session, render_template
-from flask.ext.sqlalchemy import SQLAlchemy
-from flask.ext.migrate import Migrate, MigrateCommand
-from flask.ext.script import Manager
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate, MigrateCommand
+from flask_script import Manager
 from werkzeug.contrib.fixers import ProxyFix
 
 
